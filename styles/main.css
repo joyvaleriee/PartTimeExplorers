@@ -1,0 +1,73 @@
+
+html { 
+  background: linear-gradient( rgba(85, 85, 85, 0.55), rgba(85, 85, 85, 0.5) ), 
+   url("../Images/ComingSoon_LandingPage.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	background-color: rgba(255, 255, 255, 0);
+	color:rgba(255, 255, 255, 0.89);
+}
+
+.Heading{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.75rem;
+	margin-top: 6rem; 
+	text-transform: uppercase;
+	display: inline-block;
+    display: flex;
+    justify-content: center;
+
+}
+
+.comingSoon-container {
+	margin: 10% 20%;
+/*	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow:wrap;
+  	flex-flow:wrap;
+	justify-content:center;*/
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:wrap;
+}
+
+.comingSoon-title {
+	font-family: 'futura-pt','Pacifico', cursive ;
+/*	font-family: 'Pacifico', cursive;*/
+	font-size: 5.75rem;
+    margin-bottom: 1rem;
+
+}
+
+.comingSoon-moreInfo {
+	font-family: 'futura-pt';
+/*	font-family: 'Pacifico', cursive;*/
+	font-size: 1.75rem;
+    margin: 2rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.comingSoon-description {
+	font-family: 'futura-pt';
+/*	font-family: 'Montserrat', sans-serif;*/
+	width: inherit;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.comingSoon-form {
+	text-align: center;
+	padding: 0 30%
+	width: 60%; 
+	color: gray; 
+}
